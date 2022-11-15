@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Secular One', sans-serif;
+}
+
+.div-head-container{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #255ee9;
+}
+
+.logo-login{
+    width: 200px;
+    object-fit: contain;
+
+ }
+
+.link-header{
+    width: 500px;
+    text-align: center;
+}
+
+ul > li{
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+}
+
+.logo-login.right{
+    text-align: right;
+}
+
+.div-section1{
+    padding: 30px 0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    
+}
+
+.div-section1-1{
+    color: white;
+    height: 350px;
+    width: 650px; 
+    text-align: center; 
+}
+
+.div-section1-1 > h1{
+    margin: 30px 0;
+}
+
+.div-section2{
+    height: 500px;
+    padding: 30px 0;
+}
+
+.div-section2-1{
+    height: 400px;
+    width: 550px;
+    
+}
+.div-section2-1 > img{
+    width: 550px;
+    height: 400px;
+}
+.div-section2-2{
+    height: 400px;
+    width: 350px;
+    font-size: 1.4em;
+}
+.div-section2-2, .padding{
+
+    padding-top: 40px;
+}
+.reverse{
+    background-color: #d3d3d3;
+}
+
+.div-section2-1, .reverse{
+    flex-direction: row-reverse;
+}
+
+.div-alto{
+    padding: 30px 0;
+    background-color: #d3d3d3;
+}
+
+#box-alto{
+    height: 800px;
+    width: 900px;
+    text-align: center;
+    font-size: 1.2em;
+}
+#div-stelline{
+
+    width: 500px;
+    height: 70px;
+    font-size: 1.4em;
+    background-image: url(../img/stars.svg);
+    margin: 0 auto;
+    padding-top: 15px;
+}
+#download-bottom{
+    font-size: 15px;
+    color: white;
+    background-color: #5865f2;
+    margin-top: 15px;
+}
+
+#ultima-section{
+    background-color: #23272a;
+    height: 500px;
+}
+
+.div-ultima-section{
+    width: 350px;
+    height: 450px;
+    font-size: 1.5em;
+    padding: 20px 0 20px 20px;
+    line-height: 50px;
+    
+}
+
+.div-ultima-section2{
+    color: white;
+    height: 450px;
+    width: 550px;
+    padding-top: 30px;
+    line-height: 30px;
+}
+    
+#icone{
+    color: white;
+}
+
+#icona-italia{
+    width: 25px;
+}
+
+.testo-viola{
+    color: #5865f2;
+}
+
+.testo-bianco{
+    color: white;
+}
+.fa-brands{
+
+    padding-right: 20px;
+}
+
+.div-ultima-section2 div{
+    
+    height: 450px;
+    width: 137px;
+}
+
+.div-bottom{
+   
+    background-color: #23272a;
+    height: 80px;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 40px 0;
+}
+
+#div-logo-bottone{
+    width: 900px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+/* .logo-login, .link-header, .logo-login.right{
+    background-color: #daa520; */
+
+
+.div-section1, .div-section2, .div-alto, #ultima-section{
+    justify-content: center;
+    align-items: center;
+}
+
+.div-section1, .div-section2, .div-alto, #ultima-section, .div-ultima-section2, .div-bottom, #div-logo-bottone{
+    display: flex;
+}
+
+button{
+
+    /* height: 35px;
+    width: 70px; */
+    padding: 7px 10px;
+    border-radius: 25px;
+    border-color: transparent;
+
+}
+
+.div-section1-1 button{
+
+    margin: 20px 10px;
+}
+
+#bottone-nero{
+
+    background-color: #23272a;
+    color: white;
+
+}
+
+.logo-bottom{
+    width: 100px;
+    background-color: #23272a;
+}
+
+#registrati-footer{
+    background-color: #5865f2;
+    color: white;
+}
