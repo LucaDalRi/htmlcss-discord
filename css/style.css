@@ -1,10 +1,11 @@
+/* Reset */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Secular One', sans-serif;
 }
-
+/* Inizio header */
 .div-head-container{
     height: 80px;
     display: flex;
@@ -38,12 +39,11 @@ a{
 .logo-login.right{
     text-align: right;
 }
-
+/* Inizio main prima section */
 .div-section1{
     padding: 30px 0;
     background-image: url(../img/jumbo.png);
     background-size: cover;
-    
 }
 
 .div-section1-1{
@@ -56,7 +56,7 @@ a{
 .div-section1-1 > h1{
     margin: 30px 0;
 }
-
+/* Inizio section 2 */
 .div-section2{
     height: 500px;
     padding: 30px 0;
@@ -80,6 +80,7 @@ a{
 
     padding-top: 40px;
 }
+/* Inizio section 3 */
 .reverse{
     background-color: #d3d3d3;
 }
@@ -87,7 +88,7 @@ a{
 .div-section2-1, .reverse{
     flex-direction: row-reverse;
 }
-
+/* Inizio section 4 */
 .div-alto{
     padding: 30px 0;
     background-color: #d3d3d3;
@@ -114,7 +115,7 @@ a{
     background-color: #5865f2;
     margin-top: 15px;
 }
-
+/* section finale */
 #ultima-section{
     background-color: #23272a;
     height: 500px;
@@ -126,7 +127,6 @@ a{
     font-size: 1.5em;
     padding: 20px 0 20px 20px;
     line-height: 50px;
-    
 }
 
 .div-ultima-section2{
@@ -153,18 +153,15 @@ a{
     color: white;
 }
 .fa-brands{
-
     padding-right: 20px;
 }
 
 .div-ultima-section2 div{
-    
     height: 450px;
     width: 137px;
 }
-
+/* Inizio footer */
 .div-bottom{
-   
     background-color: #23272a;
     height: 80px;
     justify-content: center;
@@ -180,9 +177,30 @@ a{
     border-top: 1px solid gray;
 }
 
-/* .logo-login, .link-header, .logo-login.right{
-    background-color: #daa520; */
+#registrati-footer{
+    background-color: #5865f2;
+    color: white;
+}
 
+button{
+    padding: 7px 10px;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+#bottone-nero{
+    background-color: #23272a;
+    color: white;
+}
+
+.logo-bottom{
+    width: 100px;
+    background-color: #23272a;
+}
+/* Selettori avanzati  */
+.div-section1-1 button{
+    margin: 20px 10px;
+}
 
 .div-section1, .div-section2, .div-alto, #ultima-section{
     justify-content: center;
@@ -191,36 +209,4 @@ a{
 
 .div-section1, .div-section2, .div-alto, #ultima-section, .div-ultima-section2, .div-bottom, #div-logo-bottone{
     display: flex;
-}
-
-button{
-
-    /* height: 35px;
-    width: 70px; */
-    padding: 7px 10px;
-    border-radius: 25px;
-    border-color: transparent;
-
-}
-
-.div-section1-1 button{
-
-    margin: 20px 10px;
-}
-
-#bottone-nero{
-
-    background-color: #23272a;
-    color: white;
-
-}
-
-.logo-bottom{
-    width: 100px;
-    background-color: #23272a;
-}
-
-#registrati-footer{
-    background-color: #5865f2;
-    color: white;
 }
